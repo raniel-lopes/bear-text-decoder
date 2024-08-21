@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bear Text Decoder</title>
+</head>
+<body>
+    <!--Cabeçalho ou logo-->
+    <header>
+    </header>
+    <!-- Seção principal-->
+    <main class="container">
+        <section class="text-processor">
+            <!-- Left Section: Input Area -->
+            <div class="input-area">
+                <div class="title-box">
+                    <h1 class="title">Bear Text Decoder</h1>
+                </div>
+                    <textarea class="text-input" placeholder="Type here..."></textarea>
+                        <p class="instruction">
+                            All special characters and accents will be removed, and all letters will be converted to lowercase.
+                        </p>
+                <div class="button-group">
+                    <button onclick="encryptText()" class="btn">Encrypt</button>
+                    <button onclick="decryptText()" class="btn">Decrypt</button>
+                </div>
+            </div>
+
+            <!-- Right Section: Output Area -->
+                <div class="output-area"></div>
+                    <div class="output-box"></div>
+                        <h2 class="output-message" id="messageToCopy"></h2>
+                            <img src="./assets/" alt="Bear holding a magnifying glass" class="mag-cat" id="lupe-bear">
+                                <div class="output-texts">
+                                    <h3 class="no-message">No messages found</h3>
+                                    <h4 class="prompt-text">Please enter a message that you want to encrypt.</h4>
+                                    <button onclick="copyText()" class="copy-btn" id="copyButton">Copy</button>
+                                </div>
+                            </div>
+                        </div>
+        </section>
+    </main>
+
+
+    <!--Rodapé-->
+    <footer class="site-info">
+                <h6>Developed by</h6>
+    </footer>
+</body>
+</html>
