@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
-
+*{
+    font-family: "Familjen Grotesk";
+}
 body {
     background-color: #D6BD98;
     box-sizing: border-box;
@@ -21,4 +23,14 @@ body {
 .container__child__leftbox {
     display: flex;
     flex-direction: column;
+    align-items: left;
+    justify-content: space-around;
+    gap: 10rem;
+}
+
+.container__child__leftbottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.25rem;
 }
