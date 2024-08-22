@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <title>Bear Text Decoder</title>
 </head>
 <body>
@@ -11,34 +13,36 @@
     </header>
     <!-- Seção principal-->
     <main class="container">
-        <section class="text-processor">
+        <section class="container__child">
             <!-- Left Section: Input Area -->
-            <div class="input-area">
-                <div class="title-box">
-                    <h1 class="title">Bear Text Decoder</h1>
+            <div class="container__child__leftbox">
+                <div class="continer__child__titlebox">
+                    <h1 class="container__child__title">Bear Text Decoder</h1>
                 </div>
-                    <textarea class="text-input" placeholder="Type here..."></textarea>
-                        <p class="instruction">
+                    <textarea class="container__child__input" placeholder="Type here..."></textarea>
+                        <p class="container__child__instruction">
                             All special characters and accents will be removed, and all letters will be converted to lowercase.
                         </p>
-                <div class="button-group">
+                <div class="container__child__btns">
                     <button onclick="encryptText()" class="btn">Encrypt</button>
                     <button onclick="decryptText()" class="btn">Decrypt</button>
                 </div>
             </div>
 
             <!-- Right Section: Output Area -->
-                <div class="output-area"></div>
-                    <div class="output-box"></div>
-                        <h2 class="output-message" id="messageToCopy"></h2>
+                <div class="container__child__rightbox"></div>
+                    <div class="container__child__container"></div>
+                        <h2 class="container__child__outputmessage" id="messageToCopy"></h2>
                             <img src="./assets/" alt="Bear holding a magnifying glass" class="mag-cat" id="lupe-bear">
-                                <div class="output-texts">
-                                    <h3 class="no-message">No messages found</h3>
-                                    <h4 class="prompt-text">Please enter a message that you want to encrypt.</h4>
+                            <div class="container__child__rightbottom"> 
+                            <div class="container__child__texts">
+                                    <h3 class="container__child__text1">No messages found</h3>
+                                    <h4 class="container__child__text2">Please enter a message that you want to encrypt.</h4>
                                     <button onclick="copyText()" class="copy-btn" id="copyButton">Copy</button>
                                 </div>
                             </div>
                         </div>
+                    </div>   
         </section>
     </main>
 
