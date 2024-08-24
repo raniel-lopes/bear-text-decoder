@@ -16,9 +16,12 @@
         <section class="container__child">
             <!-- Left Section: Input Area -->
             <div class="container__child__leftbox">
+                <div class="container__child__titleboxandtext">
                 <div class="continer__child__titlebox">
+                    <img src="./assets/logo-bear.png" alt="Logo_bear" class="logo__topo">
                     <h1 class="container__child__title">Bear Text Decoder</h1>
                 </div>
+                <div class="caret"></div>
                     <textarea class="container__child__input" placeholder="Type here..."></textarea>
                         <p class="container__child__instruction">
                             All special characters and accents will be removed, and all letters will be converted to lowercase.
@@ -28,12 +31,12 @@
                     <button onclick="decryptText()" class="btn">Decrypt</button>
                 </div>
             </div>
-
+            </div>
             <!-- Right Section: Output Area -->
-                <div class="container__child__rightbox"></div>
-                    <div class="container__child__container"></div>
-                        <h2 class="container__child__outputmessage" id="messageToCopy"></h2>
-                            <img src="./assets/" alt="Bear holding a magnifying glass" class="mag-cat" id="lupe-bear">
+                <div class="container__child__rightbox">
+                    <div class="container__child__rectangle">
+                        <h2 class="container__child__output" id="messageToCopy"></h2>
+                            <img src="./assets/big_bear.png" alt="Bear holding a magnifying glass" class="mag-bear" id="lupe-bear">
                             <div class="container__child__rightbottom"> 
                             <div class="container__child__texts">
                                     <h3 class="container__child__text1">No messages found</h3>
