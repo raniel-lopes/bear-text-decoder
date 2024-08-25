@@ -5,7 +5,7 @@
 ### Temas do Projeto:
 1. Interface - Paleta de Cores
 https://colorhunt.co/palette/1a363640534c677d6ad6bd98
-2. Elementos inspirados em gatos.
+2. Elementos inspirados em ursos.
 
 ### Funcionalidades:
 - **Conversão de Caracteres:** Transforma letras específicas:
