@@ -9,8 +9,7 @@
 </head>
 <body>
     <!--Cabeçalho ou logo-->
-    <header>
-    </header>
+    
     <!-- Seção principal-->
     <main class="container">
         <section class="container__child">
@@ -20,16 +19,15 @@
                 <div class="container__child__titlebox">
                     <img src="./assets/logo-bear.png" alt="Logo_bear" class="logo__topo">
                     <h1 class="container__child__title">Bear Text Decoder</h1>
-                </div>
                 <div class="caret"></div>
+                </div>
                 <div class="container__child__leftbottom">
-                    <h5 class="container__child__input" placeholder="Type here..."></h5>
-                        <div class="container__child__instruction">
-                            All special characters and accents will be removed, and all letters will be converted to lowercase.
-                        </div>
+                    <textarea class="container__child__input" placeholder="Type here..."></textarea>
+                </div>
+                <div class="container__child__instruction">All special characters and accents will be removed, and all letters will be converted to lowercase.</div>
                 <div class="container__child__btns">
-                    <button onclick="encryptText()" class="btn">Encrypt</button>
-                    <button onclick="decryptText()" class="btn">Decrypt</button>
+                    <button onclick="encryptText()" class="container__child__btn">Encrypt</button>
+                    <button onclick="decryptText()" class="container__child__btn">Decrypt</button>
                 </div>
             </div>
             </div>
@@ -53,7 +51,7 @@
 
     <!--Rodapé-->
     <footer class="site__info">
-        <h6 class="devby">Developed by</h6>
+        <h6 class="devby">Developed by </h6>
         <img src="./assets/github_icon.png" class="githublogo" alt="Github logo">
         <a href="https://github.com/raniel-lopes" class="raniel">/raniel-lopes</a>
     </footer>
